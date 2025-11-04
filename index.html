@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Aijia Annie Yang</title>
+  
+  <meta name="authorin  " content="Annie Yang">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/seal_icon.png">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Aijia Annie Yang</name>
+              </p>
+              <p> Hello, 
+              </p>
+              <p>
+                I am an undergraduate student at University of California, San Diego studying 
+                Mechanical Engineering (Specialization in Controls and Robotics) and double major in 
+                Mathematics Applied Science with a focus on Computer Science. 
+                <br>
+                <br>
+                My academic and professional interests center on robotics, software engineering, and AI/ML. 
+                I am passionate about innovation, creativity, and exploring unconventional approaches in STEM, with a drive to push boundaries 
+                and develop impactful solutions. With multiple years of experience in CAD modeling and programming, I have built a strong foundation in both hardware and software, 
+                enabling me to approach problems from an interdisciplinary perspective.
+              </p>
+              <p style="text-align:center">
+                annieyaj [at] outlook [dot] com &nbsp/&nbsp
+                <a href="data/data_annie/Annie_Resume.pdf">CV</a> &nbsp/&nbsp
+                <a href="https://www.linkedin.com/in/annie-aijia-yang/">Linkedin</a> &nbsp/&nbsp
+                <a href="https://github.com/annieyaj">Github</a>
+              </p>
+            </td> 
+
+            <td style="padding:2.5%;width:30%;max-width:30%">
+              <a href="images/images_annie/Annie_Pic.png"><img style="width:100%;max-width:100%" alt="profile photo" src="images/images_annie/Annie_Pic.png" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding-top:4%;padding-right:0;padding-bottom:2.5%;padding-left:0;width:100%;vertical-align:middle">
+              <heading>Research / Projects</heading>
+              <!-- <p>
+              </p> -->
+            </td>
+          </tr>
+        </tbody></table>
+
+<!--Beginning of projects-->
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="stop_madr()" onmouseover="start_madr()">
+            <td style="padding:20px;width:25%;vertical-align:middle"> <!--"padding:20px;width:25%;vertical-align:middle"-->
+              <div class="one">
+                <div class="two" id='thumb_madr'><img src='images/images_annie/madr_drone_v_drone_square.gif' height=100% width=100%></div>
+                <img src='images/images_annie/MADR_frontfig.png'height=100% width=100%>
+              </div>
+              <script type="text/javascript">
+                function start_madr() {
+                  document.getElementById('thumb_madr').style.opacity = "1";
+                }
+
+                function stop_madr() {
+                  document.getElementById('thumb_madr').style.opacity = "0";
+                }
+                stop_madr()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle> MADR: MPC-guided Adversarial DeepReach </papertitle>
+              <br> 
+              <em> Ryan Teoh, Sander Tonkens, William Sharpless, Aijia Yang, Zeyuan Feng, Somil Bansal, Sylvia Herbert. </em>  
+              <br>
+              Paper Recently Submitted to ICRA - September, 2025
+              <p> This paper introduces MADR (MPC-guided Adversarial DeepReach), a framework that improves the learning of differential game value functions for robust control. By integrating active MPC-based supervision into self-supervised Hamilton-Jacobi reachability learning, MADR efficiently approximates two-player, zero-sum differential games and yields optimal strategies for both agents. The method demonstrates strong performance across simulated and real robotic platforms, including high-dimensional systems such as turtlebots, drones, and humanoids.</p>
+              <p>
+                [<a href="https://arxiv.org/abs/2510.18845">paper</a>]
+                [<a href="https://land-dev.github.io/madr/">website</a>]
+                [<a href="#" onclick="showVideoMADR(); return false;">video</a>]
+              </p>
+              <div id="madr_video_container" style="display:none; margin-top:10px;">
+                <video width="560" controls autoplay muted>
+                  <source src="images/images_annie/madr_video.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <script>
+                function showVideoMADR() {
+                  const vid = document.getElementById("madr_video_container");
+                  if (vid.style.display === "none") {
+                    vid.style.display = "block";
+                  } else {
+                    vid.style.display = "none";
+                  }
+                }
+              </script>
+            </td>
+          </tr> 
+
+<!--End of Page-->
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                Website template by Jon Barron (<a href="https://github.com/jonbarron/jonbarron_website">source code</a>).
+                <br>
+                Last updated: Nov 3, 2025
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
+
+
+<!---->
