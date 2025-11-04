@@ -1,0 +1,29 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+*~
+
+# Node or build folders (if you ever use JS tools)
+node_modules/
+dist/
+build/
+
+# Python cache (if you ever have scripts)
+__pycache__/
+*.pyc
+
+# VSCode / JetBrains / other IDE settings
+.vscode/
+.idea/
