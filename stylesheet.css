@@ -123,6 +123,16 @@ papertitle {
   font-style: normal;
 }
 
+projecttitle {
+  /* font-family: 'Lato', Verdana, Helvetica, sans-serif; */
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 100; */
+  font-style: normal;
+}
+
 name {
   /* font-family: 'Lato', Verdana, Helvetica, sans-serif; */
   font-size: 32px;
