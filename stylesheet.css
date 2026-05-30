@@ -166,3 +166,46 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+/* ===== Gallery Page ===== */
+.gallery-container {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.masonry-gallery {
+  column-count: 3;
+  column-gap: 14px;
+}
+
+.gallery-img {
+  width: 100%;
+  margin-bottom: 14px;
+  border-radius: 12px;
+  display: block;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.25s ease,
+              box-shadow 0.25s ease;
+}
+
+.gallery-img:hover {
+  transform: scale(1.015);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* Tablet */
+@media screen and (max-width: 900px) {
+  .masonry-gallery {
+    column-count: 2;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+  .masonry-gallery {
+    column-count: 1;
+  }
+}
